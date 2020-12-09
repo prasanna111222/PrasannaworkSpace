@@ -1,0 +1,20 @@
+# properties for Admin login
+
+#ID
+Uname=txtuId
+Pswd=txtPword
+Lgn=//*[@id=\\"login\\"]
+
+# Properties for Branches
+
+Bbutton =BtnNewBR
+Bname=txtbName
+BAddress1=txtAdd1
+BAddress2=Txtadd2
+BAddress3=txtadd3
+BArea=txtArea
+BZip=txtZip
+BCountry=lst_counrtyU
+BState=lst_stateI
+BCity=lst_cityI
+BSubmit=btn_insert

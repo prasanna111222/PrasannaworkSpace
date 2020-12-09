@@ -1,0 +1,14 @@
+package com.ebanking.master;
+
+public class Exelib {
+
+	public static void main(String[] args) {
+		Library LB=new Library();
+		String Retval =LB.openApp("http://122.175.8.158/ranford2/");
+				
+		
+		
+
+	}
+
+}

@@ -1,0 +1,38 @@
+# properties for Admin login
+
+#ID
+Uname=txtuId
+Pswd=txtPword
+Lgn=//*[@id=\\"login\\"]
+
+# Properties for Branches
+
+Bbtn =BtnNewBR
+BNme=txtbName
+BAddress1=txtAdd1
+BAddress2=Txtadd2
+BAddress3=txtadd3
+BAra=txtArea
+BZp=txtZip
+BCountry=lst_counrtyU
+BState=lst_stateI
+BCity=lst_cityI
+BSubmit=btn_insert
+
+#properties for Role
+
+
+
+
+driver.findElement(By.xpath("//*[@id=\"Table_01\"]/tbody/tr[2]/td/table/tbody/tr[4]/td/a/img")).click();
+				
+BRole=btnRoles		driver.findElement(By.id("btnRoles")).click();
+RName=txtRname				
+RDesc=txtRDesc	    driver.findElement(By.name("txtRname")).sendKeys(RoleName);
+RType=RoleType				
+Rsubmit=btninsert			driver.findElement(By.name("txtRDesc")).sendKeys(RoleDesc);
+				
+			Select Roletype= new Select(driver.findElement(By.name(RoleType)));
+			Roletype.selectByVisibleText("E");
+				
+			driver.findElement(By.name("btninsert")).click();

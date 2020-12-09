@@ -1,0 +1,10 @@
+# properties for Admin login
+
+#ID
+Uname=txtuId
+Pswd=txtPword
+Lgn=//*[@id=\\"login\\"]
+
+# Properties for Branches
+
+Bbutton =
